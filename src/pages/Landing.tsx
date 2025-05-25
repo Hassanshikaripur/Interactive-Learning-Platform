@@ -82,10 +82,10 @@ const Landing = () => {
                 <Brain className="w-12 h-12 text-white drop-shadow-md" />
               </div>
               <CardTitle className="text-3xl font-bold text-white group-hover:text-blue-200 transition-colors duration-300">
-                AI Quiz Generator
+                Quiz Generator
               </CardTitle>
               <p className="text-slate-300 text-lg mt-4 leading-relaxed">
-                Transform any topic into engaging quizzes with instant feedback powered by advanced AI
+                Transform any topic into engaging quizzes with instant feedback.
               </p>
             </CardHeader>
             <CardContent className="relative px-8 pb-8">
@@ -155,11 +155,11 @@ const Landing = () => {
         {/* Footer */}
         <div className="text-center animate-in fade-in-0 duration-1000 delay-1400">
           <div className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105 group cursor-pointer">
-            <Sparkles className="w-6 h-6 text-yellow-400 animate-pulse" />
-            <p className="text-slate-200 font-medium text-lg">
-              Powered by Google's Gemini AI • Built for learners everywhere
-            </p>
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse group-hover:bg-green-300"></div>
+            <p className="text-slate-200 font-medium text-lg">
+              Created by <span className='animate-pulse text-secondary'> Hassan Shikaripur </span> • Built for learners everywhere
+            </p>
+            <Sparkles className="w-6 h-6 text-yellow-400 animate-pulse" />
           </div>
         </div>
       </div>
