@@ -23,7 +23,6 @@ const App: React.FC = () => (
             <Route path="/" element={<Landing />} />
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/planner" element={<StudyPlanner />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
