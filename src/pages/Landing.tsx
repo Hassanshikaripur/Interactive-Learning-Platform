@@ -33,11 +33,11 @@ const Landing = () => {
           
           <div className="space-y-6 max-w-4xl mx-auto">
             <h1 className="text-7xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-white leading-tight animate-in slide-in-from-bottom-4 duration-1000 delay-200">
-              Learn<span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 animate-pulse">Smart</span>
+              Introducing<span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 animate-pulse">Quize</span>
             </h1>
             
             <p className="text-2xl md:text-3xl text-slate-200 font-light max-w-3xl mx-auto leading-relaxed animate-in slide-in-from-bottom-4 duration-1000 delay-400">
-              AI-powered learning platform that creates 
+              AI-powered platform that creates 
               <span className="font-medium text-purple-300"> personalized quizzes</span> and 
               <span className="font-medium text-blue-300"> smart schedules</span>
             </p>
